@@ -1,0 +1,3 @@
+D:\Code\Ruby\.metadata\.plugins\org.eclipse.dltk.core\3927879410.index
+D:\Code\Ruby\.metadata\.plugins\org.eclipse.dltk.core\2049024749.index
+D:\Code\Ruby\.metadata\.plugins\org.eclipse.dltk.core\2589522926.index

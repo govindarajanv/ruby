@@ -1,0 +1,41 @@
+class HelloWorld
+  puts "Hello World"
+  
+  #This is comment
+  puts "---------------------------------------------------------"
+  
+  puts "# This is comment"
+  
+  #Assign the local variable
+  x = 1
+  print x
+  
+   
+  #Do some basic arithmetic:
+  puts "---------------------------------------------------------"
+  
+  print 1 + 2
+  print 2 * 7
+  print 5 / 2
+  print 5 / 2.0
+  print 1 + (2 * 3)
+  
+  #Work with strings:
+  puts "---------------------------------------------------------"
+  
+  print 'single quoted'
+  print "double quoted"
+  print 'It\'s alive!'
+  print '1 + 2 = 5'
+  
+  puts " Print GOVIND in lower case"
+  print "GOVIND".downcase  
+  print "govind".upcase  
+ 
+  #Embed ruby in strings
+  x ='Bob'
+  print "Hi, #{x}"
+  
+  
+  
+end

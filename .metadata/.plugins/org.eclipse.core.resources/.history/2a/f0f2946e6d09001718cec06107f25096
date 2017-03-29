@@ -1,0 +1,15 @@
+class HandsOn1
+  # This is a program to learn basics of Ruby
+  variable = 2
+  a = 1
+  b = "Hi "
+  print variable
+  print "a="+ a.to_s
+ 
+  #Arrays
+  types = ['cripsy','raw','crunchy','grilled']
+  print types.length()
+  print types.size()
+  types.push('roasted') 
+  print types
+end

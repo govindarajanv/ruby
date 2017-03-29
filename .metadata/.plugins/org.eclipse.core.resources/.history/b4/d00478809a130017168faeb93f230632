@@ -1,0 +1,16 @@
+class HelloRuby
+  def hello
+    puts "Hello Ruby"
+    message = "Welcome to Ruby Programming"
+    #print message
+    #print message[0..5]
+    print message[5..-4]
+    
+    
+  end
+  
+end
+
+#Dont use camel case instead use snake case with _ in between words
+h = HelloRuby.new()
+h.hello()
