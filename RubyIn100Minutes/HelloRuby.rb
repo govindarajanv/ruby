@@ -162,6 +162,13 @@ class HelloRuby
     puts " "
     print FileTest.exists?("/etc/passwd")
     
+    puts "\nFile:" + __FILE__
+    puts "\nLine: " 
+    
+    puts File.expand_path(__FILE__, Dir.getwd)
+    
+    print __LINE__
+    print "\n"
           
 
     
@@ -176,7 +183,7 @@ class HelloRuby
       
     
    
-    
+     
 
     
     
