@@ -1,7 +1,0 @@
-class HandsOn1
-  # This is a program to learn basics of Ruby
-  variable = 2
-  a = 1
-  b = "Hi"
-  c = a + b
-end
