@@ -1,0 +1,6 @@
+Exercises
+1. Try these in Interactive Ruby
+	-	Get all methods associated with a number, a string
+	-	Find out the object use self
+	-	Check if 30 is between 20 and 40
+2. 
