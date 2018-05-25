@@ -15,9 +15,19 @@ else
   puts "You are eligible to case vote"
 end
 
-a = 25
-puts "Yes, greater than 10" if a > 10
+puts "Yes, greater than 10" if age > 10
 
-puts "Yes, greater than 10" unless a < 10
+puts "Yes, greater than 10" unless age < 10
 
+
+case age
+when 1,2
+	  puts "Baby"
+when 3..14
+	  puts "child"
+else 
+	if age > 14
+	  puts "Adult"
+	end
+end
 
