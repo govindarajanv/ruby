@@ -1,5 +1,9 @@
+# Get the age from user
 puts "Enter your age"
 age=gets.chomp.to_i
+
+#if else part
+#
 if age >= 18 
   puts "You are eligible to case vote"
 elsif age >=17 && age < 18
@@ -15,11 +19,14 @@ else
   puts "You are eligible to case vote"
 end
 
+# conditions in puts
 puts "Yes, greater than 10" if age > 10
 
 puts "Yes, greater than 10" unless age < 10
 
 
+#case, when and else 
+#
 case age
 when 1,2
 	  puts "Baby"
