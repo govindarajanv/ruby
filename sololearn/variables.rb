@@ -10,3 +10,15 @@ height=5
 #
 # string interpolation in Ruby
 puts "He is #{height} feet tall"
+
+#local variables and global variables
+$x = 50
+
+def change
+	$x =20
+	x=10
+	puts $x
+	puts x
+end
+change
+puts $x
