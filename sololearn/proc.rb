@@ -20,6 +20,8 @@ def say(arr, proc)
   arr.each { |x| proc.call x}
 end
 
+# Using procs gives the added flexibility to be able to reuse code blocks in more than one place without having to type them out every time. 
+# Procs basically take blocks of code and embed them in an object, allowing them to be reused and passed around.
 people = ["David", "Amy", "John"]
 say(people, greet)
 say(people, goodbye)
