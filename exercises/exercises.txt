@@ -1,0 +1,11 @@
+	BATCH - 1
+
+-	Accept the radius of the circle and compute the area
+-	biggest of three numbers
+-	accept a sequence of comma separated numbers from user and generate array in ruby ( list and tuples in Python)
+-	get a filename and print the extention of that filename
+-	write a program to get two strings and swap first two characters of both the strings
+-	convert a string to lower and upper case
+-	write a program to shuffle a list and print (using random)
+-	how to reverse a list
+-	how to you print a list of strings in reverse, wordwise and characterwise
