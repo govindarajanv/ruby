@@ -1,0 +1,14 @@
+-	enter interactive ruby with a simple prompt
+	$irb --simple-prompt
+-	Use '_' to get the last result in irb
+-	change the value of constant, ruby allows with a warning (constants starts with capital letter)
+-	difference between single and double quotes in string interpolation
+-	string operations
+	"I am Govind"	-	reverse this string
+			-	find the length
+			-	capitalize
+			-	upcase
+			-	downcase
+			-	is empty or not
+			-	print three times the same string
+			-	print the above string with '\n' at the end (the output should contain \n)
