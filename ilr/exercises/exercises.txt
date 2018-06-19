@@ -12,3 +12,4 @@
 			-	is empty or not
 			-	print three times the same string
 			-	print the above string with '\n' at the end (the output should contain \n)
+-	Add a multiline comment to string operations program written above
