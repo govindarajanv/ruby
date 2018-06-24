@@ -35,4 +35,25 @@ case num
 		puts "please enter a number in permissible range"
 end
 
+#the above implementation using Lambda
+
+puts "lambda based implementation of odd/even checker"
+case num
+	when -> (n) { n%2 == 0 }
+		puts "#{num} is even"
+	else
+		puts "#{num} is odd"
+end
+
+print "Enter the language you like:"
+lang = gets
+case lang
+	when /uby/
+		puts "Rubyist"
+	when /ython/
+		puts "Python geek"
+	else
+		puts "You are a coder!!!"
+end
+
 
