@@ -60,3 +60,11 @@ end
   option = gets.chop
   redo if option == 'y'
 end
+
+#loop
+i=1
+loop do
+ puts i
+  break if i == 10
+  i+=1
+end
