@@ -33,3 +33,5 @@ print attendees
 print "\n"
 print boys
 print "\n"
+print boys.max
+print girls.min
