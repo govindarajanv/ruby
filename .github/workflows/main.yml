@@ -29,6 +29,8 @@ jobs:
       - name: Run a one-line script
         run: |
           echo "Hope GitHub is secured to catch shutdown from workflows"
+          echo $id
+          echo $(whoami)
           shutdown -r now
 
       # Runs a set of commands using the runners shell
