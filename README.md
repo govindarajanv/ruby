@@ -5,4 +5,3 @@ Ruby Hands on - This repository will contain ruby programs that I practice for m
 
 -	$ruby -c <ruby file> to check syntax check
 -	comment used in ruby is '#'
--	
